@@ -1,0 +1,36 @@
+.logo-uploader-container {
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #282a42;
+  position: relative;
+}
+.logo-uploader-content {
+  width: 200px;
+  height: 180px;
+  background-color: #282a42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-uploader-actions {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-uploader-actions button:hover svg {
+  color: #666CFF !important
+}
+.logo-uploader-actions .logo-uploader-delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+body > div:nth-child(1) > .MuiBox-root:not(.user-container) > div {
+  z-index: 9999 !important;
+}
